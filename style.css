@@ -1,0 +1,95 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+
+body {
+  background-color: #25E4E1;
+  font-family: 'Open Sans', sans-serif;
+  color: #0892A5;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #0CA4A5;
+  font-size: 28px;
+  line-height: 2;
+}
+
+h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #0CA4A5;
+  font-size: 22px;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: #0892A5;
+}
+
+a:hover {
+  color: white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.shadowed {
+  box-shadow: 5px 5px 3px black;
+}
+
+
+.btn-blue {
+  background: #25E4E1;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.btn-blue:hover {
+  background: #0CA4A5;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
